@@ -77,6 +77,8 @@ export default function ContactUsPage() {
             Atención al Cliente: 686 782 0891
             <br />
             Localización: Mexicali, Baja California
+            <br />
+            Dirección: Calz. Manuel Gómez Morín 799, Rivera L20A, 21259 Mexicali, B.C.
           </p>
         </div>
 
