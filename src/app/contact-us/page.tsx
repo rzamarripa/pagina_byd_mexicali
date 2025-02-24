@@ -50,7 +50,7 @@ export default function ContactUsPage() {
                 max-img:mb-[7.777778vw]
             `}
           >
-            BYD - Premier
+            BYD - Mexicali
           </h3>
           <div
             className={`

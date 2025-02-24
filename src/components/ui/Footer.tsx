@@ -68,7 +68,7 @@ const Footer = () => {
             <span className="font-medium text-xs">Síganos</span>
 
             <div className="flex items-center justify-center gap-5 ml-1 m-0 p-0">
-              <Link href="https://www.facebook.com/bydpremiermexicali" target="_blank">
+              <Link href="https://www.facebook.com/profile.php?id=61568727380065" target="_blank">
                 <Image
                   src={facebookIcon}
                   alt="facebook icon"
