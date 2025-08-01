@@ -74,11 +74,11 @@ export default function ContactUsPage() {
                 max-img:text-[#4e5356]
             `}
           >
-            Atención al Cliente: 686 782 0891
+            Atención al Cliente: 686 522 3886
             <br />
             Localización: Mexicali, Baja California
             <br />
-            Dirección: Calz. Manuel Gómez Morín 799, Rivera L20A, 21259 Mexicali, B.C.
+            Dirección: Calzada Cetys 2798, San Pedro, 21254, Mexicali, B.C.
           </p>
         </div>
 
