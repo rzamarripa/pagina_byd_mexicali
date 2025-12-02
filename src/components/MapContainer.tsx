@@ -9,7 +9,7 @@ interface MapContainerProps {
   disableVideo?: boolean;
 }
 
-export const MapContainer = ({ disableVideo = true }: MapContainerProps) => {
+export const MapContainer = ({ disableVideo = false }: MapContainerProps) => {
   const [isOpen, setOpen] = useState(false);
   const urlVideo = "/videos/location.mp4";
 
@@ -71,7 +71,6 @@ export const MapContainer = ({ disableVideo = true }: MapContainerProps) => {
           `}
         >
           <div className="w-full h-full">
-       
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4111.476282280649!2d-115.41115599999999!3d32.6550903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d771002292a815%3A0xa40a67dc797caf65!2sBYD%20MEXICALI!5e1!3m2!1ses-419!2smx!4v1739939315399!5m2!1ses-419!2smx"
               className="w-full h-full"
