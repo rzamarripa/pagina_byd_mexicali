@@ -2,8 +2,8 @@ import React from "react";
 import { PostVentaGallery, ResponsiveImage } from "@/components";
 import pcImg from "@/assets/images/post-venta/pc.png";
 import mobImg from "@/assets/images/post-venta/mob.png";
-import headingPc from "@/assets/images/post-venta/web-header.jpg";
-import headingMob from "@/assets/images/post-venta/mob-header.jpg";
+import headingPc from "@/assets/images/post-venta/taller-header-web.png";
+import headingMob from "@/assets/images/post-venta/taller-header-mob.png";
 
 export default function PostVentaPage() {
   return (
