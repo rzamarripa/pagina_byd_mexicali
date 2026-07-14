@@ -14,15 +14,19 @@ import banner_song_plus from "@/assets/images/home-page/carrusel/web_song-plus_j
 import { Button } from "../";
 import { useRouter } from "next/navigation";
 
-const slides = [
+const defaultSlides = [
   { image: banner_shark, link: "/car/BYDSHARK" },
   { image: banner_dolphin_mini, link: "/car/dolphin-mini" },
   { image: banner_song_pro, link: "/car/song-pro-dmi" },
   { image: banner_song_plus, link: "/car/song-plus-dmi" },
 ];
 
-const SwiperSlider = () => {
+type CustomSlide = { id: string; image: string; link: string };
+
+const SwiperSlider = ({ customSlides }: { customSlides?: CustomSlide[] }) => {
   const router = useRouter();
+  const slides =
+    customSlides && customSlides.length > 0 ? customSlides : defaultSlides;
 
   return (
     <Swiper
@@ -57,7 +61,9 @@ const SwiperSlider = () => {
               fill
               className="object-cover"
               quality={70}
-              placeholder="blur"
+              placeholder={
+                typeof slide.image === "string" ? "empty" : "blur"
+              }
               priority
             />
           </div>
