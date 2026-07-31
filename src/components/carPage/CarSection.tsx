@@ -3,7 +3,6 @@ import { useWindowSize } from "@/hooks";
 import { SectionCarPage } from "@/lib";
 import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Button } from "../PrimaryButton";
 import { AskQuoteForm } from "../AskQuoteForm";
@@ -25,9 +24,9 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
     flexData,
     quoteForm,
     quoteFormCar,
+    imageOverlay,
   } = props.carInfo;
   const [showMore, setShowMore] = useState(false);
-  const router = useRouter();
 
   const windowSize = useWindowSize();
   const isMobile = windowSize?.width ? windowSize.width <= 992 : false;
@@ -80,6 +79,18 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
               }}
               loading="lazy"
               quality={75}
+            />
+          )}
+
+          {/* Degradado superior: replica el overlay de byd.com para que el
+              texto blanco se lea sobre imágenes de fondo claro. */}
+          {imageOverlay && (
+            <div
+              className="absolute top-0 left-0 w-full h-1/2 pointer-events-none"
+              style={{
+                background:
+                  "linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%)",
+              }}
             />
           )}
         </div>
@@ -237,7 +248,7 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
             {buttonsText.map((button, index) => (
               <Button
                 key={index}
-                onClick={() => router.push(button.link || "/")}
+                onClick={() => window.open(button.link || "/", "_blank")}
                 className={`
                     min-w-[200px]
                     max-img:py-[3.472222vw]

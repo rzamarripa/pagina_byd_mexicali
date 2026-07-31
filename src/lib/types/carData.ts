@@ -39,6 +39,9 @@ export type SectionCarPage = {
   /** Auto a preseleccionar en el formulario de cotización. Útil cuando la
    * imagen ya trae el nombre impreso y `title` se deja vacío. */
   quoteFormCar?: string;
+  /** Degradado oscuro sobre la mitad superior de la imagen, para que el
+   * texto blanco se lea cuando el fondo es claro. */
+  imageOverlay?: boolean;
 } & (
   | {
       imageDesktop: Image;

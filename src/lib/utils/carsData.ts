@@ -1959,7 +1959,8 @@ export const carsData: CarData[] = [
           description: "Sistema híbrido enchufable BYD",
         },
       ],
-      text: "* -Precio y autonomía podrán variar según versión del vehículo. -La autonomía (distancia que puede recorrer un vehículo eléctrico sin parar para recargar) en la ficha técnica y sitio web, depende de diferentes factores incluyendo, de manera enunciativa y no limitativa, capacidad de su batería, uso que se haga del motor, características del vehículo, estilo de conducción, condiciones de manejo, hábitos de manejo del usuario, condiciones climáticas y del camino, así como peso, tamaño y especificaciones técnicas del vehículo, entre otros. -Build Your Dreams Busses México, S. de R.L. de C.V. se reserva el derecho de efectuar cualquier modificación sin previo aviso con respecto a colores, equipos o especificaciones detalladas en el sitio web o descontinuar la producción de un modelo determinado. Los colores de los vehículos entregados podrán diferir ligeramente de los que figuran en este sitio. Las versiones aquí mostradas son las únicas aprobadas y certificadas por Build Your Dreams Busses México, S. de R.L. de C.V. para este modelo. Consulta nivel de equipamiento y disponibilidad por versión con tu Distribuidor Autorizado BYD.",
+      // En la página oficial el aviso legal no va aquí, sino al final de todo.
+      text: "",
       imageDesktop: section2_king_desktop,
       imageMobile: section2_king_mobile,
     },
@@ -1967,6 +1968,9 @@ export const carsData: CarData[] = [
       {
         title: "ADAS: Conducción Autónoma Nivel 2",
         description: "",
+        // El video tiene fondo claro; la página oficial marca esta sección
+        // con "text-color-black" (la única de toda la página).
+        textBlack: true,
         buttons: false,
         isVideo: true,
         video: "/videos/king-adas-pc.mp4",
@@ -1976,6 +1980,8 @@ export const carsData: CarData[] = [
         description:
           "El completamente nuevo BYD KING DM-i evoluciona con una imagen más deportiva y moderna, integrando líneas más agresivas, superficies fluidas y una silueta que transmite dinamismo desde cualquier ángulo, inspirado en la filosofía Ocean Aesthetics de BYD, logrando una apariencia innovadora y tecnológica al mismo tiempo.",
         buttons: false,
+        // Única sección con degradado en byd.com (isNeedPicModal="yes").
+        imageOverlay: true,
         imageDesktop: section4_king_desktop,
         imageMobile: section4_king_mobile,
         collapse: true,
@@ -2091,15 +2097,8 @@ export const carsData: CarData[] = [
         collapseData: [
           {
             title: "Descubre todas formas de abrir tu BYD KING DM-i",
-            descriptions: [
-              "Puedes abrir las puertas de tu nuevo BYD KING DM-i de forma práctica y segura con:",
-              "· Smartphone NFC",
-              "· Smartphone Bluetooth",
-              "· BYD App",
-              "· Tarjeta NFC",
-              "· Llave física",
-              "Generando una experiencia tecnológica diseñada para hacer cada trayecto más cómodo y conectado.",
-            ],
+            description:
+              "Puedes abrir las puertas de tu nuevo BYD KING DM-i de forma práctica y segura con: Smartphone NFC Smartphone Bluetooth BYD App Tarjeta NFC Llave física Generando una experiencia tecnológica diseñada para hacer cada trayecto más cómodo y conectado.",
             imagePosition: "right",
             imageDesktop: section6_king_collapse1,
             imageMobile: section6_king_collapse1_mobile,
@@ -2144,17 +2143,16 @@ export const carsData: CarData[] = [
         title: "Estructura de carrocería de alta resistencia",
         description:
           "Marco de seguridad 61% de acero reforzado, el nuevo BYD KING DM-i garantiza una rigidez inquebrantable y protección ante impactos bajo cualquier situación.",
-        buttons: false,
+        // La ficha técnica vive aquí; ya no hay sección propia al final.
+        buttons: true,
+        buttonsText: [
+          { text: "Ficha Técnica", link: "/files/ficha-tecnica-king-2027.pdf" },
+        ],
         collapse: false,
         imageDesktop: section9_king_desktop,
         imageMobile: section9_king_mobile,
       },
     ],
-    technicalData: {
-      techImageDesktop: section1_king_desktop,
-      techImageMobile: section1_king_mobile,
-      buttonUrl: "/files/ficha-tecnica-king-2027.pdf",
-    },
   },
   {
     id: "song-plus-dmi",
