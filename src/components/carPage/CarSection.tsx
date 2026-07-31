@@ -24,6 +24,7 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
     flex,
     flexData,
     quoteForm,
+    quoteFormCar,
   } = props.carInfo;
   const [showMore, setShowMore] = useState(false);
   const router = useRouter();
@@ -253,7 +254,7 @@ export const CarSection = (props: { carInfo: SectionCarPage }) => {
         {quoteForm && (
           <AskQuoteForm
             className="img:max-2xl:bottom-1 img:max-2xl:mr-1 img:max-2xl:top-[unset]"
-            car={props.carInfo.title}
+            car={quoteFormCar || title}
           />
         )}
       </div>

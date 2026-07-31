@@ -9,7 +9,7 @@ import atto8 from "@/assets/images/header-product-images/atto8.webp";
 import sealGlacierBlue from "@/assets/images/header-product-images/seal_glacier_blue.png";
 // import dolphinHeaderUpdate from "@/assets/images/header-product-images/dolphin-header-update.png";
 import smallPic from "@/assets/images/header-product-images/small-pic.png";
-import header1 from "@/assets/images/header-product-images/Header1.png";
+import kingHeader from "@/assets/images/header-product-images/king-header.webp";
 import azureBlueHeader from "@/assets/images/header-product-images/azure-blue-header.png";
 import headerBYDShark from "@/assets/images/header-product-images/Header-BYD-SHARK.png";
 import headerSongPro from "@/assets/images/header-product-images/header_song_pro.png";
@@ -96,8 +96,8 @@ export const hybridVehicles: Vehicle[] = [
     link: "/car/m9",
   },
   {
-    carPicturePath: header1,
-    carName: "BYD KING DM-i",
+    carPicturePath: kingHeader,
+    carName: "BYD KING 2027",
     text: "Conócelo",
     link: "/car/king",
   },

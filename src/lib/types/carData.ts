@@ -36,6 +36,9 @@ export type SectionCarPage = {
   buttonColor?: "white" | "black";
   smallText?: string;
   quoteForm?: boolean;
+  /** Auto a preseleccionar en el formulario de cotización. Útil cuando la
+   * imagen ya trae el nombre impreso y `title` se deja vacío. */
+  quoteFormCar?: string;
 } & (
   | {
       imageDesktop: Image;

@@ -22,7 +22,7 @@ const options = [
   "BYD TANG",
   "BYD SEAL",
   "BYD DOLPHIN MINI",
-  "BYD KING",
+  "BYD KING DM-i",
   "BYD SONG PLUS DM-i",
   "BYD SHARK",
   "BYD SONG PRO DM-i",

@@ -243,32 +243,50 @@ import section8_dolphin_mini_desktop from "@/assets/images/cars-page/dolphin-min
 import section8_dolphin_mini_mobile from "@/assets/images/cars-page/dolphin-mini/7-mob.jpg";
 
 // King
-import section1_king_desktop from "@/assets/images/cars-page/king/1-pc.jpg";
-import section2_king_desktop from "@/assets/images/cars-page/king/2-pc.jpg";
-import section2_king_mobile from "@/assets/images/cars-page/king/2-mob.jpg";
-import section3_king_desktop from "@/assets/images/cars-page/king/3-pc.jpg";
-import section3_king_mobile from "@/assets/images/cars-page/king/3-mob.jpg";
-import section4_king_desktop from "@/assets/images/cars-page/king/4-pc.jpg";
-import section4_king_collapse1 from "@/assets/images/cars-page/king/4.1-pc.jpg";
-import section4_king_collapse1_mobile from "@/assets/images/cars-page/king/4.1-mob.jpg";
-import section4_king_collapse2 from "@/assets/images/cars-page/king/4.2-pc.jpg";
-import section4_king_collapse2_mobile from "@/assets/images/cars-page/king/4.2-mob.jpg";
-import section4_king_collapse3 from "@/assets/images/cars-page/king/4.3-pc.jpg";
-import section4_king_collapse3_mobile from "@/assets/images/cars-page/king/4.3-mob.jpg";
-import section5_king_desktop from "@/assets/images/cars-page/king/5-pc.jpg";
-import section5_king_mobile from "@/assets/images/cars-page/king/5-mob.jpg";
-import section5_king_collapse1 from "@/assets/images/cars-page/king/5.1-pc.jpg";
-import section5_king_collapse1_mobile from "@/assets/images/cars-page/king/5.1-mob.jpg";
-import section5_king_collapse2 from "@/assets/images/cars-page/king/5.2-pc.jpg";
-import section6_king_desktop from "@/assets/images/cars-page/king/6-pc.jpg";
-import section6_king_collapse1 from "@/assets/images/cars-page/king/6.1-pc.jpg";
-import section6_king_collapse1_mobile from "@/assets/images/cars-page/king/6.1-mob.jpg";
-import section6_king_collapse2 from "@/assets/images/cars-page/king/6.2-pc.jpg";
-import section6_king_collapse2_mobile from "@/assets/images/cars-page/king/6.2-mob.jpg";
-import section7_king_desktop from "@/assets/images/cars-page/king/7-pc.jpg";
-import section7_king_mobile from "@/assets/images/cars-page/king/7-mob.jpg";
-import section8_king_desktop from "@/assets/images/cars-page/king/8-pc.jpg";
-import section8_king_mobile from "@/assets/images/cars-page/king/8-mob.jpg";
+import section1_king_desktop from "@/assets/images/cars-page/king/01-hero-pc.webp";
+import section1_king_mobile from "@/assets/images/cars-page/king/01-hero-mob.jpg";
+import section2_king_desktop from "@/assets/images/cars-page/king/02-performance-pc.jpg";
+import section2_king_mobile from "@/assets/images/cars-page/king/02-performance-mob.jpg";
+import section4_king_desktop from "@/assets/images/cars-page/king/04-diseno-pc.jpg";
+import section4_king_mobile from "@/assets/images/cars-page/king/04-diseno-mob.jpg";
+import section4_king_collapse1 from "@/assets/images/cars-page/king/04-1-front-face-pc.jpg";
+import section4_king_collapse1_mobile from "@/assets/images/cars-page/king/04-1-front-face-mob.jpg";
+import section4_king_collapse2 from "@/assets/images/cars-page/king/04-2-faros-pc.jpg";
+import section4_king_collapse2_mobile from "@/assets/images/cars-page/king/04-2-faros-mob.jpg";
+import section4_king_collapse3 from "@/assets/images/cars-page/king/04-3-rines-pc.jpg";
+import section4_king_collapse3_mobile from "@/assets/images/cars-page/king/04-3-rines-mob.jpg";
+import section4_king_collapse4 from "@/assets/images/cars-page/king/04-4-luz-trasera-pc.jpg";
+import section4_king_collapse4_mobile from "@/assets/images/cars-page/king/04-4-luz-trasera-mob.jpg";
+import section4_king_collapse5 from "@/assets/images/cars-page/king/04-5-cajuela-pc.jpg";
+import section4_king_collapse5_mobile from "@/assets/images/cars-page/king/04-5-cajuela-mob.jpg";
+import section4_king_collapse6 from "@/assets/images/cars-page/king/04-6-silueta-lateral-pc.jpg";
+import section4_king_collapse6_mobile from "@/assets/images/cars-page/king/04-6-silueta-lateral-mob.jpg";
+import section5_king_desktop from "@/assets/images/cars-page/king/05-interior-pc.jpg";
+import section5_king_mobile from "@/assets/images/cars-page/king/05-interior-mob.jpg";
+import section5_king_collapse1 from "@/assets/images/cars-page/king/05-1-pantalla-pc.jpg";
+import section5_king_collapse1_mobile from "@/assets/images/cars-page/king/05-1-pantalla-mob.jpg";
+import section5_king_collapse2 from "@/assets/images/cars-page/king/05-2-bocinas-pc.jpg";
+import section5_king_collapse2_mobile from "@/assets/images/cars-page/king/05-2-bocinas-mob.jpg";
+import section5_king_collapse3 from "@/assets/images/cars-page/king/05-3-carga-inalambrica-pc.jpg";
+import section5_king_collapse3_mobile from "@/assets/images/cars-page/king/05-3-carga-inalambrica-mob.jpg";
+import section5_king_collapse4 from "@/assets/images/cars-page/king/05-4-column-shifter-pc.jpg";
+import section5_king_collapse4_mobile from "@/assets/images/cars-page/king/05-4-column-shifter-mob.jpg";
+import section5_king_collapse5 from "@/assets/images/cars-page/king/05-5-asientos-traseros-pc.jpg";
+import section5_king_collapse5_mobile from "@/assets/images/cars-page/king/05-5-asientos-traseros-mob.jpg";
+import section6_king_desktop from "@/assets/images/cars-page/king/06-dm5-pc.jpg";
+import section6_king_mobile from "@/assets/images/cars-page/king/06-dm5-mob.jpg";
+import section6_king_collapse1 from "@/assets/images/cars-page/king/06-1-apertura-pc.jpg";
+import section6_king_collapse1_mobile from "@/assets/images/cars-page/king/06-1-apertura-mob.jpg";
+import section6_king_collapse2 from "@/assets/images/cars-page/king/06-2-vtol-pc.jpg";
+import section6_king_collapse2_mobile from "@/assets/images/cars-page/king/06-2-vtol-mob.jpg";
+import section6_king_collapse3 from "@/assets/images/cars-page/king/06-3-bolsas-aire-pc.jpg";
+import section6_king_collapse3_mobile from "@/assets/images/cars-page/king/06-3-bolsas-aire-mob.jpg";
+import section7_king_desktop from "@/assets/images/cars-page/king/07-sistema-hibrido-pc.jpg";
+import section7_king_mobile from "@/assets/images/cars-page/king/07-sistema-hibrido-mob.jpg";
+import section8_king_desktop from "@/assets/images/cars-page/king/08-bateria-pc.jpg";
+import section8_king_mobile from "@/assets/images/cars-page/king/08-bateria-mob.jpg";
+import section9_king_desktop from "@/assets/images/cars-page/king/09-estructura-pc.jpg";
+import section9_king_mobile from "@/assets/images/cars-page/king/09-estructura-mob.jpg";
 
 // Song Plus
 import section1_song_plus_desktop from "@/assets/images/cars-page/song-plus/1-pc.jpg";
@@ -1898,164 +1916,244 @@ export const carsData: CarData[] = [
   // },
   {
     id: "king",
-    title: "BYD KING",
+    title: "BYD KING DM-i",
     metadata: {
-      title: "Innovador, Confiable y Eficiente | BYD GRUPO PREMIER",
-      description: "Innovador, Confiable y Eficiente | BYD GRUPO PREMIER",
+      title: "Totalmente Nuevo BYD KING DM-i | BYD GRUPO PREMIER",
+      description:
+        "Totalmente nuevo BYD KING DM-i: 1680 km de autonomía combinada, conducción autónoma nivel 2 y tecnología híbrida enchufable DM 5.0.",
     },
     backgroundVideoSection: false,
     preSection: {
       quoteForm: true,
-      title: "BYD KING",
-      description:
-        "Único sedán híbrido enchufable con modo de conducción 100% eléctrico.",
+      // Sin título: el KV ya trae impreso "TOTALMENTE NUEVO BYD KING GS".
+      title: "",
+      quoteFormCar: "BYD KING DM-i",
+      description: "",
       buttons: false,
       collapse: false,
       imageDesktop: section1_king_desktop,
-      imageMobile: false,
+      imageMobile: section1_king_mobile,
       smallText:
         "Válido en la República Mexicana. Imágenes y videos son de carácter meramente ilustrativo.",
     },
     performanceSection: {
       buttons: false,
+      title: "TOTALMENTE NUEVO BYD KING DM-i",
       list: [
         {
-          titleNumbers: 1175,
+          title: "ADAS",
+          description: "Conducción autónoma nivel 2*",
+        },
+        {
+          titleNumbers: 1680,
           title: " km",
           description: "Autonomía Combinada (NEDC)*",
         },
         {
-          titleNumbers: 50,
-          title: " km (NEDC) / 100% EV",
-          description: "Modo de Conducción 100% Eléctrico",
+          titleNumbers: 170,
+          title: " km",
+          description: "Autonomía Eléctrica (NEDC)*",
         },
         {
-          title: "EHS",
-          description: "Sistema Híbrido Eléctrico",
-        },
-        {
-          title: "3.9L / 100km",
-          description: "Bajo Consumo de Combustible",
+          title: "Tecnología DM 5.0",
+          description: "Sistema híbrido enchufable BYD",
         },
       ],
-      text: "La autonomía (total de kilómetros que puede recorrer un vehículo eléctrico sin hacer paradas para recargar) descrita en la ficha técnica, depende de diferentes factores, incluyendo de manera enunciativa y no limitativa de la capacidad de su batería, el uso que se haga del motor, las características del vehículo, el estilo de conducción, condiciones de manejo, los hábitos de manejo del usuario, las condiciones del camino, así como el peso y tamaño del vehículo, su potencia, el tipo de carretera, el clima, la velocidad, del propio conductor, entre otros. La velocidad de carga depende del tipo de cargador utilizado, cuya disponibilidad estará sujeta a la infraestructura de carga existente en cada lugar. Válido en la República Mexicana.",
-      imageMobile: section2_king_mobile,
+      text: "* -Precio y autonomía podrán variar según versión del vehículo. -La autonomía (distancia que puede recorrer un vehículo eléctrico sin parar para recargar) en la ficha técnica y sitio web, depende de diferentes factores incluyendo, de manera enunciativa y no limitativa, capacidad de su batería, uso que se haga del motor, características del vehículo, estilo de conducción, condiciones de manejo, hábitos de manejo del usuario, condiciones climáticas y del camino, así como peso, tamaño y especificaciones técnicas del vehículo, entre otros. -Build Your Dreams Busses México, S. de R.L. de C.V. se reserva el derecho de efectuar cualquier modificación sin previo aviso con respecto a colores, equipos o especificaciones detalladas en el sitio web o descontinuar la producción de un modelo determinado. Los colores de los vehículos entregados podrán diferir ligeramente de los que figuran en este sitio. Las versiones aquí mostradas son las únicas aprobadas y certificadas por Build Your Dreams Busses México, S. de R.L. de C.V. para este modelo. Consulta nivel de equipamiento y disponibilidad por versión con tu Distribuidor Autorizado BYD.",
       imageDesktop: section2_king_desktop,
-      title: "Único sedán híbrido enchufable con modo 100% eléctrico",
+      imageMobile: section2_king_mobile,
     },
     sections: [
       {
-        title: "Elegante, confiable y eficiente",
-        description:
-          "BYD KING te lleva a un emocionante viaje por carretera gracias a su bajo consumo de combustible de 3.9L/100km (NEDC) y autonomía combinada de 1175km que te permitirá no preocuparte por la distancia del viaje.",
+        title: "ADAS: Conducción Autónoma Nivel 2",
+        description: "",
         buttons: false,
-        collapse: false,
-        imageDesktop: section3_king_desktop,
-        imageMobile: section3_king_mobile,
+        isVideo: true,
+        video: "/videos/king-adas-pc.mp4",
       },
       {
-        title: "Diseño sofisticado e innovador",
+        title: "Diseño innovador",
         description:
-          "La parte delantera está decorada con sutiles formas geométricas poligonales y tiras cromadas tipo pancarta, creando un estilo único y excepcional.",
+          "El completamente nuevo BYD KING DM-i evoluciona con una imagen más deportiva y moderna, integrando líneas más agresivas, superficies fluidas y una silueta que transmite dinamismo desde cualquier ángulo, inspirado en la filosofía Ocean Aesthetics de BYD, logrando una apariencia innovadora y tecnológica al mismo tiempo.",
         buttons: false,
         imageDesktop: section4_king_desktop,
-        imageMobile: false,
+        imageMobile: section4_king_mobile,
         collapse: true,
         collapseData: [
           {
-            title: "Facia delantera con carácter y fuerza",
+            title: "Dynamic Front Face",
             description:
-              "Las delicadas líneas frontales evocan sofisticación y estilo, su parrilla adornada con figuras geométricas poligonales irradia carácter y fuerza.",
-            imagePosition: "left",
+              "Los nuevos trazos del cofre, la fascia rediseñada y los detalles aerodinámicos crean una presencia más imponente y deportiva, mientras que sus proporciones equilibradas refuerzan la sensación de amplitud y modernidad. El nuevo diseño aerodinámico y sofisticado proyecta una presencia imponente y vanguardista que no pasa desapercibida.",
+            imagePosition: "right",
             imageDesktop: section4_king_collapse1,
             imageMobile: section4_king_collapse1_mobile,
           },
           {
-            title: "Luces traseras que destacan por su personalidad",
+            title: "Dual L Signature Headlights",
             description:
-              "El diseño trasero, con su arco ligeramente curvado, simboliza un arco listo para lanzar su flecha, representando la energía contenida y la disposición del KING para superar cualquier desafío. Finalmente, las luces traseras, con su diseño geométrico y efecto de luz ahumada, crean un espectáculo visual que juega con la luz y la sombra, llevando el arte visual a nuevos extremos.",
-            imagePosition: "right",
+              "Las dobles líneas luminosas se extienden con elegancia hacia la parte trasera, aportando al frente una sensación de movimiento continuo y un dinamismo aerodinámico que refuerza su carácter innovador.",
+            imagePosition: "left",
             imageDesktop: section4_king_collapse2,
             imageMobile: section4_king_collapse2_mobile,
           },
           {
-            title: "Cajuela con tamaño excepcional",
+            title: "Diseño que destaca en cada detalle",
             description:
-              "Amplio espacio de almacenamiento en el maletero. La capacidad de hasta 450L puede acomodar fácilmente seis maletas estándar de 20 pulgadas y satisfacer completamente el uso diario del usuario.",
-            imagePosition: "left",
+              "Incorpora rines de aluminio de 17” con un diseño que combina elegancia y deportividad en perfecta armonía. Sus acabados resaltan las líneas dinámicas del vehículo, aportando una apariencia más sofisticada y moderna. Equipado con llantas de alta calidad que brindan mayor estabilidad, confort y desempeño en cada trayecto.",
+            imagePosition: "right",
             imageDesktop: section4_king_collapse3,
             imageMobile: section4_king_collapse3_mobile,
+          },
+          {
+            title: "Luz trasera unificada con diseño tipo gota de agua",
+            description:
+              "Las nuevas luces traseras LED unificadas destacan por su diseño continuo y sofisticado, creando una identidad visual inconfundible incluso a distancia. Su patrón lumínico inspirado en el movimiento y la energía aporta una sensación visual distintiva que enfatiza el carácter tecnológico del totalmente nuevo BYD KING DM-i.",
+            imagePosition: "left",
+            imageDesktop: section4_king_collapse4,
+            imageMobile: section4_king_collapse4_mobile,
+          },
+          {
+            title: "Espacio que supera expectativas",
+            description:
+              "Con una capacidad de 522 litros o hasta 1295 con la segunda fila de asientos abatida, la cajuela del nuevo BYD KING DM-i ofrece el mayor espacio de su segmento, brindando mayor practicidad y versatilidad para el día a día y cualquier tipo de viaje. Su amplia capacidad permite transportar objetos de gran tamaño con total comodidad, pensada para adaptarse a cualquier necesidad.",
+            imagePosition: "right",
+            imageDesktop: section4_king_collapse5,
+            imageMobile: section4_king_collapse5_mobile,
+          },
+          {
+            title: "Silueta Lateral Elegante y Aerodinámica",
+            description:
+              "Las lineas fluidas ininterrumpidas junto con una silueta lateral refinada y armoniosa optimizan tanto la eficiencia como el desempeño.",
+            imagePosition: "left",
+            imageDesktop: section4_king_collapse6,
+            imageMobile: section4_king_collapse6_mobile,
           },
         ],
       },
       {
-        title: "Cabina Interior Inteligente",
+        title: "Cabina Interior Refinada",
         description:
-          "La atención excepcional al detalle se extiende al diseño interior y a la tecnología con su sistema operativo que te ofrece la mayor conectividad y confort al conducir.",
+          "El interior del nuevo BYD KING DM-i fue diseñado para ofrecer una experiencia más moderna, cómoda y envolvente. Su cabina integra un concepto minimalista con líneas horizontales limpias, materiales suaves al tacto y una combinación de colores que transmite amplitud y sofisticación.",
         buttons: false,
         imageDesktop: section5_king_desktop,
         imageMobile: section5_king_mobile,
         collapse: true,
         collapseData: [
           {
-            title: "Consola central moderna",
+            title: "Pantalla de hasta 15.6”",
             description:
-              "Moderna consola central con freno de estacionamiento eléctrico (EPB), esta cuenta con diferentes modos de conducción para adaptarse a cualquier tipo de viaje.",
-            imagePosition: "left",
+              "La pantalla táctil central flotante de 12.8” para la versión GL o 15.6” para la versión GS, se convierte en el centro de control del vehículo, brindando una interacción intuitiva y conectada, mientras que el clúster digital frente al conductor mantiene toda la información importante siempre visible.",
+            imagePosition: "right",
             imageDesktop: section5_king_collapse1,
             imageMobile: section5_king_collapse1_mobile,
           },
           {
-            title: "Tecnología Incomparable",
+            title: "Bocinas de alta fidelidad",
             description:
-              "La pantalla giratoria de 12.8 pulgadas característica de BYD complementa a BYD KING compatible con Apple Carplay y Android Auto para el teléfono inteligente de tu elección y así disfrutes de una conectividad perfecta.",
-            imagePosition: "right",
+              "Experiencia acústica envolvente de hasta 8 bocinas complementan el diseño interior con una apariencia discreta y sofisticada. El sistema de audio brinda un ambiente más inmersivo durante cada trayecto, combinando tecnología y confort en perfecta armonía.",
+            imagePosition: "left",
             imageDesktop: section5_king_collapse2,
-            imageMobile: false,
+            imageMobile: section5_king_collapse2_mobile,
+          },
+          {
+            title: "Tecnología y comodidad sin cables",
+            description:
+              "El totalmente nuevo BYD KING DM-i cuenta con un cargador inalámbrico de 15W que te permite cargar tu smartphone de forma práctica y conveniente mientras conduces. Además, integra un espacio de almacenamiento debajo del cargador y dos porta vasos al frente, ofreciendo mayor funcionalidad y practicidad para cada trayecto.",
+            imagePosition: "right",
+            imageDesktop: section5_king_collapse3,
+            imageMobile: section5_king_collapse3_mobile,
+          },
+          {
+            title: "Column Shifter al volante",
+            description:
+              "El selector de velocidades ubicada detrás del volante brinda una experiencia de manejo más intuitiva y moderna, permitiendo cambios más prácticos y cómodos al conducir. Además, su diseño libera espacio en la consola central para ofrecer una cabina más limpia, funcional y sofisticada.",
+            imagePosition: "left",
+            imageDesktop: section5_king_collapse4,
+            imageMobile: section5_king_collapse4_mobile,
+          },
+          {
+            title: "Espacio y confort para todos los pasajeros",
+            description:
+              "La parte trasera del totalmente nuevo BYD KING DM-i fue diseñada para ofrecer mayor comodidad y amplitud a todos los ocupantes. Sus tres asientos y piso totalmente plano permiten viajar con total confort, brindando un amplio espacio para la comodidad de todos los pasajeros.",
+            imagePosition: "right",
+            imageDesktop: section5_king_collapse5,
+            imageMobile: section5_king_collapse5_mobile,
           },
         ],
       },
       {
-        title: "Tecnología DMi híbrida enchufable",
-        description:
-          "Equipado con el sistema híbrido eléctrico EHS, BYD KING te proporciona una conducción suave y llena de potencia.",
+        title: "Tecnología que revoluciona en cada detalle DM 5.0",
+        description: "",
         buttons: false,
         imageDesktop: section6_king_desktop,
-        imageMobile: false,
+        imageMobile: section6_king_mobile,
         collapse: true,
         collapseData: [
           {
-            title: "Sistema eléctrico innovador (EHS)",
-            description:
-              "Se da prioridad al uso de la conducción eléctrica, la velocidad variable continua elimina el impacto y la frustración causada por el cambio de marcha. Logrando así, que se disfrute de una experiencia de conducción eléctrica pura y suave.",
-            imagePosition: "left",
+            title: "Descubre todas formas de abrir tu BYD KING DM-i",
+            descriptions: [
+              "Puedes abrir las puertas de tu nuevo BYD KING DM-i de forma práctica y segura con:",
+              "· Smartphone NFC",
+              "· Smartphone Bluetooth",
+              "· BYD App",
+              "· Tarjeta NFC",
+              "· Llave física",
+              "Generando una experiencia tecnológica diseñada para hacer cada trayecto más cómodo y conectado.",
+            ],
+            imagePosition: "right",
             imageDesktop: section6_king_collapse1,
             imageMobile: section6_king_collapse1_mobile,
           },
           {
-            title: "Motor híbrido de alta eficiencia especial",
+            title: "Estación de Energía Móvil VTOL*",
             description:
-              "La eficiencia térmica de 43,04% equilibria perfectamente la economía y motivación, mejorando así la capacidad de control.",
+              "Convierte tus aventuras en comodidades. Alimenta tu cocina al aire libre, luces nocturnas, películas al exterior, calefacción y dispositivos de emergencia, todo desde tu nuevo BYD KING DM-i.",
             imagePosition: "left",
             imageDesktop: section6_king_collapse2,
             imageMobile: section6_king_collapse2_mobile,
           },
+          {
+            title: "Protección para cada pasajero",
+            description:
+              "El nuevo BYD KING DM-i incorpora 6 bolsas de aire estratégicamente distribuidas para brindar mayor protección en cada trayecto: 2 frontales, 2 laterales y 2 tipo cortina. Un sistema de seguridad diseñado para ofrecer mayor tranquilidad y protección tanto al conductor como a todos los pasajeros.",
+            imagePosition: "right",
+            imageDesktop: section6_king_collapse3,
+            imageMobile: section6_king_collapse3_mobile,
+          },
         ],
       },
       {
-        title: "Batería Blade BYD",
+        title: "Sistema híbrido enchufable DM 5.0",
         description:
-          "BYD ha sido un referente en la industria de las baterías durante más de 28 años. Nuestra última e innovadora Batería Blade ha superado una serie de pruebas extremas en condiciones rigurosas, lo que la convierte en una de las baterías más seguras del mundo.",
+          "El sistema híbrido enchufable DM 5.0 de BYD incorpora un motor 1.5l de alta eficiencia. Potencia máxima de 120 kW, un torque de 220 Nm y una relación de compresión de 13:1, ofrece un desempeño ágil y potente, comparable con el de vehículos de alto rendimiento.",
         buttons: false,
         collapse: false,
         imageDesktop: section7_king_desktop,
         imageMobile: section7_king_mobile,
       },
+      {
+        title: "Batería Blade",
+        description:
+          "La Tecnología DM de BYD utiliza una versión a medida de la aclamada Batería Blade. Estas Baterías Blade personalizadas para la plataforma híbrida tienen una capacidad de energía de hasta 24.57 kWh, logrando una autonomía en modo eléctrico de hasta 170 km NEDC.",
+        buttons: false,
+        collapse: false,
+        imageDesktop: section8_king_desktop,
+        imageMobile: section8_king_mobile,
+      },
+      {
+        title: "Estructura de carrocería de alta resistencia",
+        description:
+          "Marco de seguridad 61% de acero reforzado, el nuevo BYD KING DM-i garantiza una rigidez inquebrantable y protección ante impactos bajo cualquier situación.",
+        buttons: false,
+        collapse: false,
+        imageDesktop: section9_king_desktop,
+        imageMobile: section9_king_mobile,
+      },
     ],
     technicalData: {
-      techImageDesktop: section8_king_desktop,
-      techImageMobile: section8_king_mobile,
-      buttonUrl: "/files/ficha-tecnica-king.pdf",
+      techImageDesktop: section1_king_desktop,
+      techImageMobile: section1_king_mobile,
+      buttonUrl: "/files/ficha-tecnica-king-2027.pdf",
     },
   },
   {
