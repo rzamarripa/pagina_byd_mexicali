@@ -339,8 +339,6 @@ import section2_shark_collapse1 from "@/assets/images/cars-page/shark/2.1-pc.jpg
 import section2_shark_collapse2 from "@/assets/images/cars-page/shark/2.2-pc.jpg";
 import section2_shark_collapse3 from "@/assets/images/cars-page/shark/2.3-pc.jpg";
 import section3_shark_desktop from "@/assets/images/cars-page/shark/3-pc.jpg";
-import section3_shark_collapse1 from "@/assets/images/cars-page/shark/3.1-pc.jpg";
-import section3_shark_collapse1_mobile from "@/assets/images/cars-page/shark/3.1-mob.jpg";
 import section3_shark_collapse2 from "@/assets/images/cars-page/shark/3.2-pc.gif";
 import section3_shark_collapse2_mobile from "@/assets/images/cars-page/shark/3.2-mob.gif";
 import section3_shark_collapse3 from "@/assets/images/cars-page/shark/3.3-pc.jpg";
@@ -2443,14 +2441,6 @@ export const carsData: CarData[] = [
         imageMobile: false,
         collapse: true,
         collapseData: [
-          {
-            title: "Sistema de cabina inteligente BYD",
-            description:
-              "Equipado con la pantalla giratoria multimedia de 12.8 pulgadas y el panel de instrumentos LCD de 10,25 pulgadas.",
-            imagePosition: "left",
-            imageDesktop: section3_shark_collapse1,
-            imageMobile: section3_shark_collapse1_mobile,
-          },
           {
             title: "Sistema de comando por voz “Hi BYD”",
             description:
