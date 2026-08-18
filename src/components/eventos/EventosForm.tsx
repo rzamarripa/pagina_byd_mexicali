@@ -27,6 +27,7 @@ const options = [
   "BYD SHARK",
   "BYD SONG PRO DM-i",
   "BYD YUAN PRO",
+  "BYD YUAN PRO DM-i",
   "BYD ATTO 8",
 ];
 

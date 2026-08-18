@@ -429,6 +429,40 @@ import section8_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/8-mob.j
 import section9_yuan_pro_desktop from "@/assets/images/cars-page/yuan-pro/9-pc.jpg";
 import section9_yuan_pro_mobile from "@/assets/images/cars-page/yuan-pro/9-mob.jpg";
 
+// Yuan Pro DM-i
+import section1_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/1-pc.jpg";
+import section1_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/1-mob.jpg";
+import section2_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/2-pc.jpg";
+import section2_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/2-mob.jpg";
+import section4_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/4-pc.jpg";
+import section4_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/4-mob.jpg";
+import section5_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/5-pc.jpg";
+import section5_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/5-mob.jpg";
+import section5_yuan_pro_dmi_collapse1 from "@/assets/images/cars-page/yuan-pro-dmi/5.1-pc.jpg";
+import section5_yuan_pro_dmi_collapse1_mobile from "@/assets/images/cars-page/yuan-pro-dmi/5.1-mob.jpg";
+import section5_yuan_pro_dmi_collapse2 from "@/assets/images/cars-page/yuan-pro-dmi/5.2-pc.jpg";
+import section5_yuan_pro_dmi_collapse2_mobile from "@/assets/images/cars-page/yuan-pro-dmi/5.2-mob.jpg";
+import section5_yuan_pro_dmi_collapse3 from "@/assets/images/cars-page/yuan-pro-dmi/5.3-pc.jpg";
+import section5_yuan_pro_dmi_collapse3_mobile from "@/assets/images/cars-page/yuan-pro-dmi/5.3-mob.jpg";
+import section6_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/6-pc.jpg";
+import section6_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/6-mob.jpg";
+import section6_yuan_pro_dmi_collapse1 from "@/assets/images/cars-page/yuan-pro-dmi/6.1-pc.jpg";
+import section6_yuan_pro_dmi_collapse1_mobile from "@/assets/images/cars-page/yuan-pro-dmi/6.1-mob.jpg";
+import section6_yuan_pro_dmi_collapse2 from "@/assets/images/cars-page/yuan-pro-dmi/6.2-pc.jpg";
+import section6_yuan_pro_dmi_collapse2_mobile from "@/assets/images/cars-page/yuan-pro-dmi/6.2-mob.jpg";
+import section6_yuan_pro_dmi_collapse3 from "@/assets/images/cars-page/yuan-pro-dmi/6.3-pc.jpg";
+import section6_yuan_pro_dmi_collapse3_mobile from "@/assets/images/cars-page/yuan-pro-dmi/6.3-mob.jpg";
+import section6_yuan_pro_dmi_collapse4 from "@/assets/images/cars-page/yuan-pro-dmi/6.4-pc.jpg";
+import section6_yuan_pro_dmi_collapse4_mobile from "@/assets/images/cars-page/yuan-pro-dmi/6.4-mob.jpg";
+import section7_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/7-pc.jpg";
+import section7_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/7-mob.jpg";
+import section8_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/8-pc.jpg";
+import section8_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/8-mob.jpg";
+import section8_1_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/8.1-pc.jpg";
+import section8_1_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/8.1-mob.jpg";
+import section9_yuan_pro_dmi_desktop from "@/assets/images/cars-page/yuan-pro-dmi/9-pc.jpg";
+import section9_yuan_pro_dmi_mobile from "@/assets/images/cars-page/yuan-pro-dmi/9-mob.jpg";
+
 // Atto 8
 
 import section1_atto8_desktop from "@/assets/images/cars-page/atto8/1-pc.jpg";
@@ -2962,6 +2996,200 @@ export const carsData: CarData[] = [
       techImageMobile: section9_yuan_pro_mobile,
       buttonUrl: "/files/ficha-tecnica-yuan-pro.pdf",
     },
+  },
+  {
+    id: "yuan-pro-dmi",
+    title: "BYD YUAN PRO DM-i",
+    metadata: {
+      title: "BYD YUAN PRO DM-i | BYD GRUPO PREMIER",
+      description:
+        "BYD YUAN PRO DM-i: la SUV híbrida enchufable más accesible del mercado, con 1045 km de autonomía combinada, 24 km/l y conducción autónoma nivel 2.",
+    },
+    backgroundVideoSection: false,
+    preSection: {
+      quoteForm: true,
+      // Sin título: el KV ya trae impreso "BYD YUAN PRO DM-i".
+      title: "",
+      quoteFormCar: "BYD YUAN PRO DM-i",
+      description: "",
+      buttons: false,
+      collapse: false,
+      imageDesktop: section1_yuan_pro_dmi_desktop,
+      imageMobile: section1_yuan_pro_dmi_mobile,
+      smallText:
+        "Válido en la República Mexicana. Imágenes y videos son de carácter meramente ilustrativo.",
+    },
+    performanceSection: {
+      buttons: false,
+      title: "SUV híbrido enchufable compacto e inteligente",
+      list: [
+        {
+          title: "ADAS",
+          description: "Conducción autónoma nivel 2*",
+        },
+        {
+          titleNumbers: 24,
+          title: " km/l",
+          description: "Consumo de combustible (NEDC)*",
+        },
+        {
+          titleNumbers: 1045,
+          title: " km",
+          description: "Autonomía combinada (NEDC)*",
+        },
+        {
+          title: "Plataforma DM-i",
+          description: "Sistema Super Híbrido BYD DM-i",
+        },
+      ],
+      text: "Precio y autonomía podrán variar según versión del vehículo. La autonomía (distancia que puede recorrer un vehículo eléctrico sin parar para recargar) en la ficha técnica y sitio web, depende de diferentes factores incluyendo, de manera enunciativa y no limitativa, capacidad de su batería, uso que se haga del motor, características del vehículo, estilo de conducción, condiciones de manejo, hábitos de manejo del usuario, condiciones climáticas y del camino, así como peso, tamaño y especificaciones técnicas del vehículo, entre otros. Consulta nivel de equipamiento y disponibilidad por versión con tu Distribuidor Autorizado BYD o en https://www.byd.com/mx",
+      imageDesktop: section2_yuan_pro_dmi_desktop,
+      imageMobile: section2_yuan_pro_dmi_mobile,
+    },
+    sections: [
+      {
+        title: "ADAS: Conducción Autónoma Nivel 2",
+        description: "",
+        // El video tiene fondo claro; byd.com marca esta sección con
+        // "text-color-black".
+        textBlack: true,
+        buttons: false,
+        isVideo: true,
+        video: "/videos/yuan-pro-dmi-adas-pc.mp4",
+      },
+      {
+        title: "No es un auto, es un BYD",
+        description:
+          "Gracias a la innovadora tecnología híbrido enchufable, el sistema DM-i Dual Mode desarrollado exclusivamente por BYD, ofrece una experiencia de conducción similar a la de un vehículo eléctrico, pero con autonomía extendida. Este modelo lidera su categoría en eficiencia de consumo de combustible, gracias a su tecnología avanzada, logrando un consumo de combustible de 24 km/l NEDC. Disfruta de la eficiencia de un vehículo eléctrico con la libertad de un híbrido.",
+        textBlack: true,
+        buttons: false,
+        collapse: false,
+        imageDesktop: section4_yuan_pro_dmi_desktop,
+        imageMobile: section4_yuan_pro_dmi_mobile,
+      },
+      {
+        title: "Diseño compacto y elegante",
+        description:
+          "El BYD YUAN PRO DM-i cuenta con un diseño frontal audaz, que le confiere un aspecto llamativo en las carreteras. Compacto, pero con presencia impactante.",
+        textBlack: true,
+        buttons: false,
+        imageDesktop: section5_yuan_pro_dmi_desktop,
+        imageMobile: section5_yuan_pro_dmi_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "Rendimiento receptivo en carretera",
+            description:
+              "Los rines de aleación de 17 pulgadas le otorgan un aspecto deportivo. Elegante en reposo, y potente en movimiento.",
+            imagePosition: "right",
+            imageDesktop: section5_yuan_pro_dmi_collapse1,
+            imageMobile: section5_yuan_pro_dmi_collapse1_mobile,
+          },
+          {
+            title: "Diseño exterior impactante",
+            description:
+              "Los faros LED afilados, equipados con luces diurnas para trayectos más seguros, combinados con una luz trasera de todo el ancho, le confieren al BYD YUAN PRO DM-i una presencia distintiva.",
+            imagePosition: "left",
+            imageDesktop: section5_yuan_pro_dmi_collapse2,
+            imageMobile: section5_yuan_pro_dmi_collapse2_mobile,
+          },
+          {
+            title: "Hecho para todo tipo de terreno",
+            description:
+              "Con solo 4.3 metros de largo, este SUV compacto está diseñado para una conducción urbana sin esfuerzo. Su excelente maniobrabilidad, corto radio de giro y manejo preciso te permiten deslizarte por las calles estrechas. Un portaequipajes de techo de 75 kg y la tecnología híbrida superior garantizan viajes más largos y sin complicaciones.",
+            imagePosition: "right",
+            imageDesktop: section5_yuan_pro_dmi_collapse3,
+            imageMobile: section5_yuan_pro_dmi_collapse3_mobile,
+          },
+        ],
+      },
+      {
+        title: "Espacio para disfrutar de confort",
+        description:
+          "El nuevo interior del BYD YUAN PRO DM-i, equipado con elegantes asientos, eleva la sensación de calidad, mientras que la cabina espaciosa te brinda el confort necesario en cada viaje.",
+        buttons: false,
+        imageDesktop: section6_yuan_pro_dmi_desktop,
+        imageMobile: section6_yuan_pro_dmi_mobile,
+        collapse: true,
+        collapseData: [
+          {
+            title: "Espacio amplio para viajes largos",
+            description:
+              "La plataforma Super DM de BYD optimiza el espacio de habitáculo, brindando un amplio espacio para cabezas y piernas tanto a los pasajeros delanteros como a los traseros.",
+            imagePosition: "right",
+            imageDesktop: section6_yuan_pro_dmi_collapse1,
+            imageMobile: section6_yuan_pro_dmi_collapse1_mobile,
+          },
+          {
+            title: "Asientos diseñados para disfrutar al máximo",
+            description:
+              "Los asientos delanteros brindan una experiencia de confort superior, diseñada para cada trayecto. En la parte trasera, los pasajeros disfrutan de asientos reclinables que elevan el nivel de comodidad, asegurando que cada viaje sea tan placentero como el destino.",
+            imagePosition: "left",
+            imageDesktop: section6_yuan_pro_dmi_collapse2,
+            imageMobile: section6_yuan_pro_dmi_collapse2_mobile,
+          },
+          {
+            title: "Tecnología para la vida diaria",
+            description:
+              "La palanca de cambios rediseñada optimiza el espacio interior, integrando prácticos compartimentos de almacenamiento. Además, su pantalla táctil de 12.8 pulgadas te brinda acceso intuitivo a toda la información que necesitas, justo cuando la necesitas.",
+            imagePosition: "right",
+            imageDesktop: section6_yuan_pro_dmi_collapse3,
+            imageMobile: section6_yuan_pro_dmi_collapse3_mobile,
+          },
+          {
+            title: "Diseño práctico, pensado para ti",
+            description:
+              "El BYD YUAN PRO DM-i ofrece un volumen de carga estándar de 425 litros, y sus asientos traseros se pueden abatir fácilmente para proporcionar un espacio de almacenamiento aún más amplio de 1,332 litros. Podrás ajustar el espacio interior sin esfuerzo para acomodar objetos más grandes o equipaje.",
+            imagePosition: "left",
+            imageDesktop: section6_yuan_pro_dmi_collapse4,
+            imageMobile: section6_yuan_pro_dmi_collapse4_mobile,
+          },
+        ],
+      },
+      {
+        title: "La seguridad es el mayor lujo",
+        description:
+          "Equipada con avanzados sistemas de asistencia a la conducción (ADAS), esta SUV eleva tu seguridad y confianza en cada trayecto. Integra un sistema inteligente de información de límite de velocidad, asistente de luces altas y asistente de salida de carril para una conducción más segura y consciente. Además, incorpora advertencia de colisión frontal y frenado automático de emergencia, brindando una respuesta oportuna ante posibles riesgos. El Control de crucero inteligente (ICC) cuenta con sistema de conducción autónoma nivel 2 que asiste al conductor en aceleración, frenado y dirección para una conducción más segura y confortable.",
+        buttons: false,
+        collapse: false,
+        imageDesktop: section7_yuan_pro_dmi_desktop,
+        imageMobile: section7_yuan_pro_dmi_mobile,
+      },
+      {
+        title: "Sistema Super Híbrido DM-i",
+        description:
+          "El sistema DM-i, basado en la tecnología híbrida enchufable DM con más de 18 años de desarrollo, ha evolucionado para perfeccionar la eficiencia energética y la experiencia de conducción. Esta innovación de BYD ofrece múltiples ventajas: permite disfrutar de una experiencia 100% eléctrica en trayectos urbanos, combinada con la seguridad de un tanque de combustible y la versatilidad del sistema híbrido para viajes largos. DM-i representa la inteligencia aplicada a la movilidad, priorizando un consumo ultrabajo y una eficiencia sobresaliente sin comprometer el rendimiento.",
+        buttons: false,
+        collapse: false,
+        imageDesktop: section8_yuan_pro_dmi_desktop,
+        imageMobile: section8_yuan_pro_dmi_mobile,
+      },
+      {
+        title: "Tecnología Super Híbrida con Batería Blade personalizada",
+        description:
+          "La Tecnología Super DM de BYD utiliza una versión a medida de la aclamada Batería Blade. Estas Baterías Blade personalizadas para la plataforma híbrida tienen una capacidad de energía de hasta 7.85 kWh, logrando una autonomía en modo eléctrico de 45 km NEDC.",
+        buttons: false,
+        collapse: false,
+        imageDesktop: section8_1_yuan_pro_dmi_desktop,
+        imageMobile: section8_1_yuan_pro_dmi_mobile,
+      },
+      {
+        title: "Tecnología conectada para movilidad inteligente",
+        description:
+          "Gracias al práctico sistema de entrada sin llave NFC, puedes desbloquear el BYD YUAN PRO DM-i con una tarjeta o tu smartphone. Además, puedes preparar tu auto para el viaje antes de salir, controlando de forma remota el aire acondicionado a través de la BYD App.",
+        // La ficha técnica vive aquí, igual que en el BYD KING DM-i.
+        buttons: true,
+        buttonsText: [
+          {
+            text: "Ficha Técnica",
+            link: "/files/ficha-tecnica-yuan-pro-dmi.pdf",
+          },
+        ],
+        collapse: false,
+        imageDesktop: section9_yuan_pro_dmi_desktop,
+        imageMobile: section9_yuan_pro_dmi_mobile,
+      },
+    ],
   },
   {
     id: "atto8",
